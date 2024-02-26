@@ -1,0 +1,26 @@
+@import url("./reset.scss");
+
+.app {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px 20px;
+}
+
+.redWord {
+  border-radius: 0px;
+  background-color: red;
+  color: white;
+}
+
+.id {
+  background-size: cover;
+  color: black;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.ant-table-cell:nth-child(2) {
+  display: flex;
+}
